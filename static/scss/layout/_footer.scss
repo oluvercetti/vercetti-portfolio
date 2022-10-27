@@ -1,0 +1,13 @@
+.footer {
+    min-height: 30rem;
+    text-align: center;
+
+    &__icons {
+        font-size: 4rem;
+    }
+
+    &__icon {
+        margin: 1rem;
+        color: $color-primary;
+    }
+}

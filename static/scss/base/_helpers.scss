@@ -1,0 +1,34 @@
+.link a{
+    color: $link-color;
+    text-decoration: none;
+
+    &:active {
+        color: $link-color;
+    }
+
+    &--alternate {
+        color: $link-color-alternate;
+        text-decoration: none;
+
+        &:active {
+            color: $link-color-alternate;
+        }
+    }
+
+    &--no-underline {
+        text-decoration:none;
+    }
+
+    &--nostyle {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+    &__icon {
+        margin-left: 10px;
+    }
+
+    .button-icon__icon {
+        color: $text-color-alternate;
+    }
+}
