@@ -1,0 +1,16 @@
+.blogpage {
+    &__container {
+        padding: 5rem 40rem;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 6.5rem;
+        margin-bottom: 6rem;
+    }
+
+    &__divider {
+        border: 1px solid #e0e0e0;
+    }
+}

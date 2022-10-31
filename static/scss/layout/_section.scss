@@ -140,6 +140,8 @@
 
     &__image {
         flex-basis: 25%;
+        margin-right: 1.5rem;
+        display: flex;
     }
 
     &__info {
@@ -154,9 +156,7 @@
 
     &__caption {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        width: 30%;
         margin: 2rem 0;
 
         &--year {
@@ -167,6 +167,7 @@
             padding: 0 1rem;
             font-weight: 900;
             font-size: 2rem;
+            margin-right: 2rem
         }
 
         &--subtitle {
@@ -179,6 +180,7 @@
 
     &__divider {
         border: 1px solid #E0E0E0;
-        margin: 1.5rem 0;
+        margin: 2rem 0;
     }
 }
+
